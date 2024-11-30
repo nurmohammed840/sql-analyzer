@@ -1,7 +1,6 @@
 [package]
-name = "sql-parser"
+name = "tokenizer"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-tokenizer = { path = "../tokenizer" }

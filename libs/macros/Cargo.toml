@@ -1,7 +1,10 @@
 [package]
-name = "sql-parser"
+name = "macros"
 version = "0.1.0"
 edition = "2021"
+
+[lib]
+proc-macro = true
 
 [dependencies]
 tokenizer = { path = "../tokenizer" }
